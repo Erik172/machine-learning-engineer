@@ -1,0 +1,3 @@
+[submodule "projects/breast-cancer-classifier"]
+	path = projects/breast-cancer-classifier
+	url = https://github.com/Erik172/breast-cancer-classifier
