@@ -1,3 +1,6 @@
 [submodule "projects/breast-cancer-classifier"]
 	path = projects/breast-cancer-classifier
 	url = https://github.com/Erik172/breast-cancer-classifier
+[submodule "projects/credit-fraud-classifier"]
+	path = projects/credit-fraud-classifier
+	url = https://github.com/Erik172/credit-fraud-classifier
