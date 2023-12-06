@@ -1,0 +1,3 @@
+# K Nearest Neighbors - KNN
+
+K-Nearest Neighbors (KNN) es un algoritmo de aprendizaje automático supervisado utilizado para clasificación y regresión. En la clasificación KNN, se asigna una etiqueta de clase a un punto de datos basado en la mayoría de las etiquetas de clase de sus vecinos más cercanos. En la regresión KNN, se predice el valor de un punto de datos basado en el promedio de los valores de sus vecinos más cercanos. El valor de K representa el número de vecinos más cercanos que se consideran para la clasificación o regresión. KNN es un algoritmo simple y fácil de implementar, pero puede ser computacionalmente costoso para grandes conjuntos de datos.
