@@ -54,10 +54,20 @@ class KnnClassifier:
             The predicted class labels for the test data.
         """
         y_pred = []
-        for i in range(len(X_test)):
-            dist = self.distance(X_test[i], self.X[0], self.type_dist)
-            dist = np.argsort(dist)[:self.k]
-            y_pred.append(np.argmax(np.bincount(self.y[dist])))
+        for x in X_test:
+            distances = []
+            for i, x_train in enumerate(self.X):
+                distances.append((self.distance(x, x_train, self.type_dist), self.y[i]))
+            distances.sort(key=lambda x: x[0])
+            neighbors = distances[:self.k]
+            counts = {}
+            for neighbor in neighbors:
+                if neighbor[1] in counts:
+                    counts[neighbor[1]] += 1
+                else:
+                    counts[neighbor[1]] = 1
+            y_pred.append(max(counts, key=counts.get))
+
         return np.array(y_pred)
 
     def distance(self, x1, x2, type_dist='euclidean'):
