@@ -1,0 +1,10 @@
+pandas
+nltk
+numpy
+gensim
+scipy==1.12
+datasets
+sentence-transformers
+chromadb
+pinecone-client
+gradio
