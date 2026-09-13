@@ -58,6 +58,7 @@
 
 ### Newsletters
 - [The Batch](https://www.deeplearning.ai/the-batch/) - Andrew Ng's newsletter
+- [AI Weekly](https://aiweekly.co/) - Discover what AI experts are reading and sharing right now
 - [AI Research](https://airesearch.com/) - Últimas investigaciones
 - [Import AI](https://jack-clark.net/) - Jack Clark's newsletter
 
@@ -133,4 +134,4 @@
 
 ---
 
-💡 **Tip**: Mantén estos enlaces organizados en tu navegador y revísalos regularmente para mantenerte actualizado. 
+💡 **Tip**: Mantén estos enlaces organizados en tu navegador y revísalos regularmente para mantenerte actualizado.
